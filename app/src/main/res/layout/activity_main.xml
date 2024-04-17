@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgimg"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/buttonCSE"
+        style="@style/Widget.Material3.Button.OutlinedButton"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp"
+        android:backgroundTint="#AE27B8"
+        android:fontFamily="sans-serif-light"
+        android:text="CSE"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/buttonCSEDS"
+        style="@style/Widget.Material3.Button.OutlinedButton"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp"
+        android:backgroundTint="#AE27B8"
+
+        android:fontFamily="sans-serif-light"
+        android:text="CSE-DS"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/buttonCSEAIML"
+        style="@style/Widget.Material3.Button.OutlinedButton"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp"
+        android:backgroundTint="#AE27B8"
+        android:fontFamily="sans-serif-light"
+        android:text="CSE-AIML"
+        android:textSize="20sp" />
+
+</LinearLayout>
